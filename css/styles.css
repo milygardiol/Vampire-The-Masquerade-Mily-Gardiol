@@ -1,0 +1,71 @@
+/* ESTILOS GENERALES */
+* {
+  background-color: #550c18;
+  color: white;
+  font-family: 'Cormorant Garamond', serif; }
+
+.fondo-inputs {
+  background-color: gray !important; }
+
+/* INCLUDES */
+main div.img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: stretch; }
+
+main div.titles {
+  padding: 10rem;
+  margin: 6rem;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px; }
+
+main div.inputs {
+  display: flex;
+  justify-content: center; }
+  main div.inputs input {
+    margin: 30px;
+    padding: 10px; }
+
+main div.items {
+  padding: 10px;
+  margin: 30px; }
+  main div.items .book-title {
+    padding: 10rem;
+    margin: 6rem;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px; }
+  main div.items ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch; }
+    main div.items ul li {
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-between;
+      align-items: stretch; }
+      main div.items ul li div.card {
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap; }
+  main div.items div.compra {
+    margin: 10px;
+    padding: 2rem;
+    border-color: beige; }

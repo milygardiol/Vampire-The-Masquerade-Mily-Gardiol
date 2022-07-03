@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire´s rol</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">VAMPIRE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                    </a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="img">
+          <img src="assets/vtm_banner.png" alt="Vampire the Masquerade Background" id="img">
+        </div>
+        <div class="titles">
+            <h1>VAMPIRE THE MASQUERADE</h1>
+            <h3>Find your new community to play our latest version of VTM. Enjoy de masquerade party.</h3>
+            <h5>This page is not real, it´s just a project.</h5>
+            <h4>Suscribe to our page! and get the latest notices about World of Darkness</h4>
+        </div>
+        <div class="inputs">
+          <form action="" name="formulario" method="get" id="formulario">
+            <input type="text" id="inputNombre" placeholder="Your name" required> <br>
+            <input type="number" id="inputEdad" placeholder="Age" required> <br>
+            <input type="email" id="inputEmail" placeholder="Email" required>
+            <button type="button" class="btn btn-light" id="buttonSubmit" >Submit</button>
+            <p id="log"></p>
+          </form>
+        </div>
+        <div class="items">
+          <h4 class="book-title">BOOKS</h4>
+          <ul>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/VampireTheMasquerade.png" class="card-img-top" alt="VampireTheMasquerade">
+                <div class="card-body">
+                  <h5 class="card-title">Vampire The Masquerade Fifth Edition Corebook</h5>
+                  <p class="card-text">Manual básico para entender el setting y las reglas de Vampiro La Mascarada, como Clanes, Disciplinas, metatrama, etc.</p>
+                  <span>$200</span>
+                  <button class="btn btn-primary"  id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/Camarilla.png" class="card-img-top" alt="Camarilla">
+                <div class="card-body">
+                  <h5 class="card-title">Camarilla</h5>
+                  <p class="card-text">Guía de la Secta vampírica más grande, y reglas del Clan Banu Haqim.</p>
+                  <span>$170</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/Anarquismo.png" class="card-img-top" alt="Anarquistas">
+                <div class="card-body">
+                  <h5 class="card-title">Anarquistas</h5>
+                  <p class="card-text">Guía de los Muertos Libres y el Estado Libre Anarquista, que prospera en las noches modernas. Incluye el Clan Ministerio.</p>
+                  <span>$160</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/ChicagoByNight.png" class="card-img-top" alt="VampireTheMasquerade">
+                <div class="card-body">
+                  <h5 class="card-title">Chicago By Night</h5>
+                  <p class="card-text">Incluye las reglas, historia y poderes del Clan Lasombra, así como una guías y crónicas para la ciudad de Chicago.</p>
+                  <span>$160</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/TheChicagoFolios.png" class="card-img-top" alt="The Chicago Folios">
+                <div class="card-body">
+                  <h5 class="card-title">The Chicago Folios</h5>
+                  <p class="card-text">Suplemento para Chicago By Night, que incluye ideas de crónicas, nuevos poderes y personajes, y muchas cosas más.</p>
+                  <span>$150</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/LetTheStreetsRunRed.png" class="card-img-top" alt="Let The Streets Run Red">
+                <div class="card-body">
+                  <h5 class="card-title">Let the Streets Run Red</h5>
+                  <p class="card-text">Nueva información y crónicas en las ciudades de Chicago, Milwaukee, Indianápolis y Gary.</p>
+                  <span>$158</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/FallOfLondon.png" class="card-img-top" alt="Fall of London">
+                <div class="card-body">
+                  <h5 class="card-title">Fall of London / Caída de Londres</h5>
+                  <p class="card-text">Crónica centrada en los vampiros de Londres durante el ataque de la Segunda Inquisición, y el regreso del dios Mithras.</p>
+                  <span>$180</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/Companion.png" class="card-img-top" alt="Companion">
+                <div class="card-body">
+                  <h5 class="card-title">Companion</h5>
+                  <p class="card-text">Actualización de las normas en el libro básico y reglas para los Clanes Ravnos, Tzimisce y Salubri.</p>
+                  <span>$150</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/CultsOfTheBloodGods.png" class="card-img-top" alt="Cults of the Blood Gods">
+                <div class="card-body">
+                  <h5 class="card-title">Cults of the Blood Gods</h5>
+                  <p class="card-text">Guía de las religiones y creencias de los vampires, e introducción del Clan Hécata.</p>
+                  <span>$190</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/TrailsOfAshAndBone.png" class="card-img-top" alt="Trails of Ash and Bone">
+                <div class="card-body">
+                  <h5 class="card-title">Trails of Ash and Bone</h5>
+                  <p class="card-text">Cuatro crónicas cortas centradas en el Clan de la Muerte.</p>
+                  <span>$160</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/ChildrenOfTheBlood.png" class="card-img-top" alt="Children of The Blood">
+                <div class="card-body">
+                  <h5 class="card-title">Children of the Blood</h5>
+                  <p class="card-text">Suplemento para Cults of the Blood Gods con nuevas Líneas de Sangre, personajes y cultos vampíricos.</p>
+                  <span>$160</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/ForbiddenReligions.png" class="card-img-top" alt="Forbidden Religions">
+                <div class="card-body">
+                  <h5 class="card-title">Forbidden Religions</h5>
+                  <p class="card-text">Expansión de los cultos vampíricos y nuevos poderes y rituales de la sangre.</p>
+                  <span>$160</span>
+                  <button  class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/SabbatTheBlackHand.png" class="card-img-top" alt="Sabbat the Black Hand">
+                <div class="card-body">
+                  <h5 class="card-title">Sabbat the Black Hand</h5>
+                  <p class="card-text">Guía de antagonistas del Sabbat, la Secta inhumana de vampiros.</p>
+                  <span>$190</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 18rem;">
+                <img src="assets/SecondInquisition.png" class="card-img-top" alt="Second Inquisition">
+                <div class="card-body">
+                  <h5 class="card-title">Second Inquisition</h5>
+                  <p class="card-text">Guía de antagonistas de cazadores de vampiros, así como sus historia y arsenal.</p>
+                  <span>$190</span>
+                  <button class="btn btn-primary" id="botonComprar">Buy it</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="compra">
+          <h2>Carrito</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group">
+
+            </ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right">Total: <span id="total"></span>$</p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/variables.js"></script>
+    <script src="js/miarchivo.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
