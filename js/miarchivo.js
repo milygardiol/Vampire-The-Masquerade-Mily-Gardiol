@@ -26,7 +26,7 @@ function renderizarLibros(librosRol) {
                   <p class="edition">${edicion}</p>
                   <p class="card-idiom"> ${idioma}</p>
                   <span>$${precio} USD</span>
-                  <button class="btn btn-primary" id="boton-comprar">Buy it</button>
+                  <button class="btn-buy btn btn-primary">Buy it</button>
                 </div>
               </div>
             </li>
