@@ -4,127 +4,113 @@
       "id" : 1,
       "nombre": "Vampire the Masquerade",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761480206680074/unknown.png",
-      "descripcion": "Manual básico para entender el setting y las reglas de Vampiro La Mascarada, como Clanes, Disciplinas, metatrama, etc.",
+      "descripcion": "Basic manual to understand the setting and rules of Vampire The Masquerade, such as Clans, Disciplines, Metaplot, etc.",
       "idioma": "Spanish",
-      "edicion": "5ta Edición",
-      "precio": 200
+      "edicion": "5th Edition"
     },
     {
       "id": 2,
       "nombre": "Camarilla",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761519922548746/unknown.png",
-      "descripcion": "Guía de la Secta vampírica más grande, y reglas del Clan Banu Haqim.",
+      "descripcion": "Guide to the Greatest Vampiric Sect, and Banu Haqim Clan Rules.",
       "idioma": "Spanish",
-      "edicion": "5ta Edición",
-      "precio": 170
+      "edicion": "5th Edition"
   },
   {
       "id": 3,
       "nombre": "Anarch",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761535005265990/unknown.png",
-      "descripcion": "Guía de los Muertos Libres y el Estado Libre Anarquista, que prospera en las noches modernas. Incluye el Clan Ministerio.",
+      "descripcion": "Guide to the Free Dead and the Anarch Free State, which thrives in the modern nights. Includes the Ministry Clan.",
       "idioma": "Spanish",
-      "edicion": "5ta Edición",
-      "precio": 160
+      "edicion": "5th Edition"
   },
   {
       "id": 4,
       "nombre": "Chicago By Night",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761557151207474/unknown.png",
-      "descripcion": "Incluye las reglas, historia y poderes del Clan Lasombra, así como una guías y crónicas para la ciudad de Chicago.",
+      "descripcion": "Includes the rules, history, and powers of the Lasombra Clan, as well as a guidebook and chronicles for the city of Chicago.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 160
+      "edicion": "5th Edition"
   },
   {
       "id":5,
       "nombre": "Chicago Folios",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761597911445534/unknown.png",
-      "descripcion": "Suplemento para Chicago By Night, que incluye ideas de crónicas, nuevos poderes y personajes, y muchas cosas más.",
+      "descripcion": "Supplement for Chicago By Night, including chronicle ideas, new powers and characters, and much more.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 150
+      "edicion": "5th Edition"
   },
   {
       "id": 6,
       "nombre":  "Let the Streets Run Red",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761614931927050/unknown.png",
-      "descripcion": "Nueva información y crónicas en las ciudades de Chicago, Milwaukee, Indianápolis y Gary.",
+      "descripcion": "New information and chronicles in the cities of Chicago, Milwaukee, Indianapolis and Gary.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 158
+      "edicion": "5th Edition"
   },
   {
       "id": 7,
       "nombre":  "Fall of London",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761583533371442/unknown.png",
-      "descripcion": "Crónica centrada en los vampiros de Londres durante el ataque de la Segunda Inquisición, y el regreso del dios Mithras.",
+      "descripcion": "Chronicle centered on the vampires of London during the attack of the Second Inquisition, and the return of the God Mithras.",
       "idioma": "Spanish",
-      "edicion": "5ta Edición",
-      "precio": 180
+      "edicion": "5th Edition"
   },
   {
       "id": 8,
       "nombre":  "Companion",
       "img": "https://cdn.discordapp.com/attachments/854166125931921409/986761659240546324/unknown.png",
-      "descripcion": "Actualización de las normas en el libro básico y reglas para los Clanes Ravnos, Tzimisce y Salubri.",
+      "descripcion": "Updated standards in the core book and rules for Clans Ravnos, Tzimisce, and Salubri.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 150
+      "edicion": "5th Edition"
   },
   {
       "id": 9,
       "nombre":  "Cults of the Blood Gods",
       "img":"https://cdn.discordapp.com/attachments/854166125931921409/986761669944442980/unknown.png",
-      "descripcion": "Guía de las religiones y creencias de los vampires, e introducción del Clan Hécata.",
+      "descripcion": "Guide to vampire religions and beliefs, and introduction to Clan Hecata.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 190
+      "edicion": "5th Edition"
   },
   {
       "id": 10,
       "nombre":  "Trails of Ash and Bone",
       "img":"https://cdn.discordapp.com/attachments/854166125931921409/986761721802817566/unknown.png",
-      "descripcion": "Cuatro crónicas cortas centradas en el Clan de la Muerte.",
+      "descripcion": "Four short chronicles focused on the Clan of Death.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 160
+      "edicion": "5th Edition"
   },
   {
       "id": 11,
       "nombre":  "Children of the Blood",
       "img":"https://cdn.discordapp.com/attachments/854166125931921409/986761708804648960/unknown.png",
-      "descripcion": "Suplemento para Cults of the Blood Gods con nuevas Líneas de Sangre, personajes y cultos vampíricos.",
+      "descripcion": "Supplement for Cults of the Blood Gods with new Bloodlines, characters and vampire cults.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 160
+      "edicion": "5th Edition"
   },
   {
       "id": 12,
       "nombre":  "Forbidden Religions",
       "img":"https://cdn.discordapp.com/attachments/854166125931921409/986761796771799110/unknown.png",
-      "descripcion": "Expansión de los cultos vampíricos y nuevos poderes y rituales de la sangre.",
+      "descripcion": "Expansion of vampire cults and new blood powers and rituals.",
       "idioma": "English",
-      "edicion": "5ta Edición",
-      "precio": 160
+      "edicion": "5th Edition"
   },
   {
       "id": 13,
       "nombre":  "Sabbat The Black Hand",
       "img":"https://cdn.discordapp.com/attachments/854166125931921409/986761741587345448/unknown.png",
-      "descripcion": "Guía de antagonistas del Sabbat, la Secta inhumana de vampiros.",
+      "descripcion": "Guide to antagonists of the Sabbat, the Inhuman Sect of vampires.",
       "idioma": "Spanish",
-      "edicion": "5ta Edición",
-      "precio": 190
+      "edicion": "5th Edition"
   },
   {
       "id": 14,
       "nombre":  "Second Inquisition",
       "img":"https://cdn.discordapp.com/attachments/854166125931921409/986761819274244106/unknown.png",
-      "descripcion": "Guía de antagonistas de cazadores de vampiros, así como sus historia y arsenal.",
+      "descripcion": "Vampire hunter antagonists guide, as well as their history and arsenal.",
       "idioma": "Spanish",
-      "edicion": "5ta Edición",
-      "precio": 190
+      "edicion": "5th Edition"
   }
   ]
 }

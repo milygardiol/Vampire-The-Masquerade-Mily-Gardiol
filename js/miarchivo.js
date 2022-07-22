@@ -1,36 +1,36 @@
 /* INICIO DEL PROYECTO FINAL */
 
 window.addEventListener("DOMContentLoaded", ()=> {
-    fetch("http://localhost:3000/librosRol")
-    .then (response => response.json())
-    .then (librosRol => {
-        // Función asincrónica
-        renderizarLibros(librosRol);
+     fetch("http://localhost:3000/librosRol")
+     .then (response => response.json())
+     .then (librosRol => {
+         // Función asincrónica
+         renderizarLibros(librosRol);
 
-    })
-    .catch(er=> console.log(er))
-    .finally[() => console.log ("final")]
-})
+     })
+     .catch(er=> console.log(er))
+     .finally[() => console.log ("final")]
+ })
 
 function renderizarLibros(librosRol) {
     // Utilizo la forma de desestructurar el .forEach() para practicar este método
-    librosRol.forEach(({img, nombre, descripcion, edicion, idioma, precio}) => {   
+    librosRol.forEach(({img, nombre, descripcion, edicion, idioma}) => {   
         const librosHTML = `
-        <ul>
-            <li>
-              <div class="card" style="width: 18rem;">
-                <img src=" ${img} " class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">${nombre}</h5>
-                  <p class="card-text">${descripcion}</p>
-                  <p class="edition">${edicion}</p>
-                  <p class="card-idiom"> ${idioma}</p>
-                  <span>$${precio} USD</span>
-                  <button class="btn-buy btn btn-primary">Buy it</button>
-                </div>
-              </div>
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    <div class="container">
+                        <div class="card" style="width: 18rem;">
+                          <img src=${img} class="card-img-top"></img>
+                            <div class="card-body">
+                                <h5 class="card-title">${nombre}</h5>
+                                <p class="card-text">${descripcion}</p>
+                                <p class="edition">${edicion}</p>
+                                <p class="card-idiom"> ${idioma}</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         `;
         document.getElementById("books").innerHTML += librosHTML;
     })
@@ -59,19 +59,21 @@ function renderizarLibros(librosRol) {
                     librosRol.forEach(librosRol => {
 
                         const librosHTML = `
-                                <li>
-                                    <div class="card" style="width: 18rem;">
+                        <ul>
+                            <li>
+                                <div class="container>
+                                    <div class="" style="width: 18rem;">
                                         <img src=" ${librosRol.img} " class="card-img-top">
                                         <div class="card-body">
                                         <h5 class="card-title">${librosRol.nombre}</h5>
                                         <p class="card-text">${librosRol.descripcion}</p>
                                         <p class="edition">${librosRol.edicion}</p>
                                         <p class="card-idiom"> ${librosRol.idioma}</p>
-                                        <span>$${librosRol.precio} USD</span>
-                                        <button class="btn btn-primary" id="boton-comprar">Buy it</button>
                                         </div>
                                     </div>
-                                </li>
+                                </div>
+                            </li>
+                        </ul>
                             `;
                             document.getElementById("books").innerHTML += librosHTML;
 
@@ -91,7 +93,9 @@ function renderizarLibros(librosRol) {
                 librosFiltrados.forEach(librosRol => {
 
                     const librosHTML = `
-                            <li>
+                    <ul>
+                        <li>
+                            <div class="container">
                                 <div class="card" style="width: 18rem;">
                                     <img src=" ${librosRol.img} " class="card-img-top">
                                     <div class="card-body">
@@ -99,11 +103,11 @@ function renderizarLibros(librosRol) {
                                     <p class="card-text">${librosRol.descripcion}</p>
                                     <p class="edition">${librosRol.edicion}</p>
                                     <p class="card-idiom"> ${librosRol.idioma}</p>
-                                    <span>$${librosRol.precio} USD</span>
-                                    <button class="btn btn-primary" id="boton-comprar">Buy it</button>
                                     </div>
                                 </div>
-                            </li>
+                            </div>
+                        </li>
+                    </ul>
                         `;
                         document.getElementById("books").innerHTML += librosHTML;
                     })
@@ -113,6 +117,7 @@ function renderizarLibros(librosRol) {
         document.getElementById("tipos").appendChild(btnTipo);
     })
 }
+
 
 
 // Funciones para el formulario de inicio
@@ -142,5 +147,3 @@ function recuperoDatosDeUsr() {
     }
 
 recuperoDatosDeUsr();
-
-
