@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
@@ -27,12 +29,12 @@
           <img src="https://www.lascosasquenoshacenfelices.com/wp-content/uploads/2021/07/vtm_banner.png" alt="Vampire the Masquerade Background" id="img">
         </div>
         <div class="titles">
-            <h1>VAMPIRE THE MASQUERADE</h1>
-            <h3>Find your new community to play our latest version of VTM. Enjoy de masquerade party.</h3>
-            <h5>This page is not real, it´s just a project.</h5><br>
-            <h4>Suscribe to our page! and get the latest notices about World of Darkness</h4>
+            <h1 data-aos="fade-right">VAMPIRE THE MASQUERADE</h1>
+            <h3 data-aos="fade-left">Find your new community to play our latest version of VTM. Enjoy de masquerade party.</h3>
+            <h5 data-aos="fade-right">This page is not real, it´s just a project.</h5><br>
+            <h4 data-aos="fade-left">Suscribe to our page! and get the latest notices about World of Darkness</h4>
         </div>
-        <div class="inputs">
+        <div class="inputs" data-aos="zoom-in-up">
           <form action="" name="formulario" method="get" id="formulario">
             <h4>Subscribe to our Newsletter!</h4>
             <input type="text" id="inputNombre" placeholder="Your name" required> <br>
@@ -42,14 +44,13 @@
             <p id="log"></p>
           </form>
         </div>
-        <div id="tipos">
+        <div id="tipos" data-aos="fade-up" data-aos-duration="3000">
           <h4 class="book-title">BOOKS</h4>
           <h5 class="book-sub">Here are some guides to play your chronicle with your friends.</h5>
 
         </div>
-        <div class="items" id="books">
-          
-          
+        <div class="items" id="books" data-aos="zoom-in-down">
+  
         </div>
     </main>
     <footer>
@@ -57,5 +58,8 @@
     </footer>
     <script src="js/variables.js"></script>
     <script src="js/miarchivo.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

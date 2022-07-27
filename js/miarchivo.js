@@ -19,14 +19,14 @@ function renderizarLibros(librosRol) {
             <ul>
                 <li>
                     <div class="container">
-                        <div class="card" style="width: 18rem;">
-                          <img src=${img} class="card-img-top"></img>
-                            <div class="card-body">
-                                <h5 class="card-title">${nombre}</h5>
-                                <p class="card-text">${descripcion}</p>
-                                <p class="edition">${edicion}</p>
-                                <p class="card-idiom"> ${idioma}</p>
-                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src=${img} class="card-img-top"></img>
+                                <div class="card-body">
+                                    <h5 class="card-title">${nombre}</h5>
+                                    <p class="card-text">${descripcion}</p>
+                                    <p class="edition">${edicion}</p>
+                                    <p class="card-idiom"> ${idioma}</p>
+                                </div>
                         </div>
                     </div>
                 </li>
