@@ -1,7 +1,7 @@
 /* INICIO DEL PROYECTO FINAL */
 
 window.addEventListener("DOMContentLoaded", ()=> {
-     fetch("http://localhost:3000/librosRol")
+    fetch("https://62e5cc43de23e263792391c7.mockapi.io/librosRol")
      .then (response => response.json())
      .then (librosRol => {
          // Función asincrónica
@@ -52,7 +52,7 @@ function renderizarLibros(librosRol) {
                 // Vacío el HTML antes de reponer las opciones en la página
                 document.getElementById("books").innerHTML="";
                 // Vuelvo a invocar la rest API para que me devuelva los libros cargados
-                fetch("http://localhost:3000/librosRol")
+                fetch("https://62e5cc43de23e263792391c7.mockapi.io/librosRol")
                 .then((response) => response.json())
                 .then(librosRol => {
 
@@ -78,8 +78,6 @@ function renderizarLibros(librosRol) {
                             document.getElementById("books").innerHTML += librosHTML;
 
                     })
-
-                .catch((err) => console.error);
 
                 })
                 // Continúo el if, para los otros botones
